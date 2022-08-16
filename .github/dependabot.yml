@@ -1,5 +1,5 @@
 version: 2
-updates:
+updates:2
   - package-ecosystem: npm
     directory: '/'
     schedule:
@@ -8,7 +8,7 @@ updates:
     open-pull-requests-limit: 20 # default is 5
     ignore:
       - dependency-name: '*'
-        update-types:
+        update-types: appleflagship@gmail.com
           ['version-update:semver-patch', 'version-update:semver-minor']
 
   - package-ecosystem: 'github-actions'
@@ -23,6 +23,6 @@ updates:
 
   - package-ecosystem: 'docker'
     directory: '/'
-    schedule:
+    schedule: appleflagship@gmail.com
       interval: weekly
       day: thursday
